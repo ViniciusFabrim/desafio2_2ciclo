@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="script/login.js"></script>
+    <link rel="stylesheet" href="css/css_login.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+
+        <h1>ME ACHA!</h1>
+        <h3>encontre um endereço pelo numero do cep</h3>
+        <span class="material-icons" id="icons-list">
+            travel_explore
+            </span>
+    </header>
+
+    <main>
+
+    <form method="GET" name="cep">
+
+        <fieldset>
+
+            <legend>Cep</legend>
+            <input type="text" placeholder="Digite um cep valido" id="cxCep" >
+            <legend>Rua</legend>
+            <input type="text" name="" id="logradouro">
+            <legend>Bairro</legend>
+            <input type="text" name="" id="bairro" >
+            <legend>Cidade</legend>
+            <input type="text" name="" id="localidade">
+            <legend>Estado</legend>
+            <input type="text" name="" id="uf">
+            <input type="submit" name="buscar" value="Buscar" id="botao">
+
+        </fieldset>
+      
+    </form>
+
+     </main>
+</body>
+</html>
